@@ -8,9 +8,7 @@
 sample-chrome-extention-bg-changer/
 ├── manifest.json
 ├── icons/
-│   ├── icon16.png
-│   ├── icon48.png
-│   └── icon128.png
+│   └── icon48.png
 ├── popup.html
 ├── popup.js
 └── content.js
@@ -50,3 +48,6 @@ sample-chrome-extention-bg-changer/
 4. 本リポジトリのルートフォルダを選択。
 5. ツールバーにアイコンが表示されれば完了。
 ```
+
+![Image](https://github.com/user-attachments/assets/9452fe4a-e573-467d-b626-92401b0a2b62)
+
