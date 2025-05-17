@@ -1,0 +1,33 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>背景色チェンジャー</title>
+		<style>
+			body {
+				width: 200px;
+				font-family: sans-serif;
+				padding: 10px;
+			}
+			.color-btn {
+				display: block;
+				width: 100%;
+				margin: 5px 0;
+				padding: 8px;
+				border: none;
+				cursor: pointer;
+				font-size: 14px;
+			}
+		</style>
+	</head>
+	<body>
+		<h4>背景色を選択</h4>
+		<button class="color-btn" data-color="#FFD700">ゴールド</button>
+		<button class="color-btn" data-color="#90EE90">ライトグリーン</button>
+		<button class="color-btn" data-color="#ADD8E6">ライトブルー</button>
+		<button class="color-btn" data-action="reset">リセット</button>
+
+		<script src="popup.js"></script>
+	</body>
+</html>
